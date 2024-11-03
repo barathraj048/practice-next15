@@ -1,9 +1,11 @@
 import Image from "next/image";
 
+
 export default function Home() {
   return (
     <div>
-      I Think Im Back!!!!
+      <h1>I Think Im Back!!!!</h1>
+        
     </div>
   );
 }
