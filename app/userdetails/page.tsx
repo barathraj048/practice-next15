@@ -14,6 +14,9 @@ export default function Page() {
         <li>
           <Link href='/userdetails/3'>unit-3</Link>
         </li>
+        <li>
+          <Link href='/userdetails/test-err'>test error</Link>
+        </li>
       </ul>
     </div>
   );

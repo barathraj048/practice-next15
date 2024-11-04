@@ -1,13 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function page({parms}:{parms :{id:string}}) {
-   let {id}=parms
-  return (
-    <div>
-      {id}
-      hiis
-    </div>
-  )
+const Page = async({ params }: { params: { id: string } }) => {
+    const {id} = await params;
+
+    return (
+        <div>
+            {id}
+        </div>
+    );
 }
 
-export default page
+export default Page;
+
