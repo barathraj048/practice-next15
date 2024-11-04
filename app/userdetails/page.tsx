@@ -17,6 +17,10 @@ export default function Page() {
         <li>
           <Link href='/userdetails/test-err'>test error</Link>
         </li>
+        <li>
+          <Link href='/test-load'>test loader
+          </Link>
+        </li>
       </ul>
     </div>
   );
